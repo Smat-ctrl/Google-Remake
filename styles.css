@@ -1,0 +1,107 @@
+.bar{
+    font-family:'Proxima Nova';
+    text-align: right;
+}
+.bar a{
+    text-align: right;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    text-underline-offset: auto;
+    margin-right: 10px;
+}
+.bar a:last-child {
+    margin-right: 0; 
+  }
+
+.bar a:hover {
+    text-decoration: underline;
+}
+a button{
+    height: 40px;
+    width:auto;
+    background-color: #4285F4;
+    border: none;
+    font-weight: bold;  
+    color: white;
+    box-shadow: 30px;
+}
+.images img {
+    position: relative;
+    top: 300px;
+    left: 30px;
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.images {
+   position: relative; 
+   width: 20;
+   height: auto;
+   z-index: -1;
+}
+body{   
+    text-align: center;
+}
+form{
+    position: relative;
+    display: inline-block;
+    margin-top: 450px;
+}
+input[type="text"] {
+    position: relative;
+    top: -210px; 
+    left: 25px;
+    width: 400px;
+    height: 34px;
+    padding: 5px;
+    border-radius: 25px;
+  }
+
+input[type="submit"]{
+    font-weight: bold;
+    padding:15px;
+    width: 200px;
+    position: absolute;
+    top: -280%;
+    left: 7.5%;
+    border: none;
+}
+input[type="submit"]:hover{
+    border: 1px solid black;
+}
+.submit-button input[type="submit"]{
+    text-align: center;
+    font-weight: bold;
+    padding:15px;
+    width: 200px;
+    position: absolute;
+    top: -280%;
+    left: 32.5%;
+    border: none;
+}
+.submit-button input[type="submit"]:hover{
+    border: 1px solid black;
+}
+#myInput {
+    background-color: lightgray;
+  }
+.button2 button{
+    position: absolute;
+    margin-top: 573px;
+    margin-left: 30px;
+    background-color: rgb(236, 234, 234);
+    border: none;
+    color: black;
+    width:200px;
+    height: 45px;
+    font-weight: bold;
+}
+.button2 button:hover{
+    border: 1px solid black;
+}
+button:hover{
+    border: 1px solid black;
+}
