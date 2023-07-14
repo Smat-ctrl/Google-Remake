@@ -1,6 +1,7 @@
 .bar{
     font-family:'Proxima Nova';
     text-align: right;
+    margin-left: auto;
 }
 .bar a{
     text-align: right;
@@ -110,9 +111,14 @@ button:hover{
     width: 98px;
     height: auto;
 }
+.header {
+    display: flex;
+    align-items: center;
+}
 #logo{
     position: relative;
-    left: -900px;
+    left: 0px;
+    margin-right: 10px;
 }
 #heading h1{
     color: rgb(209, 77, 77);
