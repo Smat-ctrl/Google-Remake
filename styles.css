@@ -129,10 +129,10 @@ button:hover{
 #heading{
     position: relative;
     left: -830px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 hr {
-    margin-top: 35px;
+    margin-top: 28px;
     height: 1px;
     background-color: rgb(221, 220, 220);
     border: none;
@@ -147,4 +147,9 @@ hr {
 }
 #return a:hover{
     text-decoration: underline;
+}
+
+.left-align {
+    display: flex;
+    align-items: center;
 }
